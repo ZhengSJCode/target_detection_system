@@ -97,18 +97,17 @@ def main(master=None, Video_Size=(1280, 720), i=1):
                 delay += 1
                 if delay > 10:
                     delay = 0
-            # if i:
-            #     img = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
-            #     newImage = Image.fromarray(img).resize(Video_Size, Image.ANTIALIAS)
-            #     newCover = ImageTk.PhotoImage(image=newImage)
-            #
-            #     # 在指定的位置显示视频帧
-            #     master.configure(image=newCover)
-            #     master.image = newCover
-            #     master.update()
-            # else:33
-            #     cv2.imshow("img", img)
-            cv2.imshow("img", img)
+            if i:
+                img = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
+                newImage = Image.fromarray(img).resize(Video_Size, Image.ANTIALIAS)
+                newCover = ImageTk.PhotoImage(image=newImage)
+
+                # 在指定的位置显示视频帧
+                master.configure(image=newCover)
+                master.image = newCover
+                master.update()
+            else:
+                cv2.imshow("img", img)
 
 if __name__ == '__main__':
     main()
