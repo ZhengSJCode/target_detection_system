@@ -9,17 +9,18 @@
     实现手势识别,基于手势识别的水果消消乐
 
 ## 效果展示
-    程序界面(未美化）:
-    <img src=picture/图片1.png>
-    
-    视频播放：
-    <img src=picture/图片2.png>
-    
-    手势输入：
-    <img src=picture/图片3.png>
-    手势输入效果：
-    <img src=picture/图片4.png>
-    
-    计算器：
-    <img src=picture/图片5.png>
-    
+ * 程序界面(未美化）:
+  <img src=picture/图片1.png>
+
+*  视频播放：
+  <img src=picture/图片2.png>
+
+*  手势输入：
+  <img src=picture/图片3.png>
+  
+*  手势输入效果：
+  <img src=picture/图片4.png>
+
+*  计算器：
+  <img src=picture/图片5.png>
+
